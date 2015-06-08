@@ -1,0 +1,29 @@
+{
+  "name": "nachos-config",
+  "version": "1.0.0",
+  "description": "nachos settings file for nachos",
+  "main": "lib\\index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachos/nachos-config"
+  },
+  "keywords": [
+    "nachos",
+    "settings",
+    "config"
+  ],
+  "author": "Nachos team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nachos/nachos-config/issues"
+  },
+  "homepage": "https://github.com/nachos/nachos-config",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.11.0",
+    "jshint-stylish": "^2.0.0"
+  }
+}
