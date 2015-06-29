@@ -19,7 +19,7 @@ Nachos settings file for nachos
         <a href="https://travis-ci.org/nachos/nachos-config"><img src="https://img.shields.io/travis/nachos/nachos-config.svg?style=flat-square"></a>
       </td>
       <td align="center">
-        <a href="https://ci.appveyor.com/project/noamokman/nachos-config"><img src="https://img.shields.io/appveyor/ci/nachos/nachos-config.svg?style=flat-square"></a>
+        <a href="https://ci.appveyor.com/project/nachos/nachos-config"><img src="https://img.shields.io/appveyor/ci/nachos/nachos-config.svg?style=flat-square"></a>
       </td>
       <td align="center">
 <a href='https://coveralls.io/r/nachos/nachos-config'><img src='https://img.shields.io/coveralls/nachos/nachos-config.svg?style=flat-square' alt='Coverage Status' /></a>
