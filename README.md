@@ -39,21 +39,21 @@ Nachos settings file for nachos
 
 ## Installation
 ``` bash
-  $ [sudo] npm install nachos-config --save
+$ [sudo] npm install nachos-config --save
 ```
 
 ## Examples
 Nachos settings defines the defaults for nachos settings file
 
 ``` js
-var nachosConfig = require('nachos-config')();
+var nachosConfig = require('nachos-config');
 ```
 
 See [settings-file](https://github.com/nachos/settings-file) documentation to see list of available functions
 
 ## Run Tests
 ``` bash
-  $ npm test
+$ npm test
 ```
 
 ## License
