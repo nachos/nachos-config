@@ -41,6 +41,8 @@
     "run-sequence": "^1.1.2"
   },
   "dependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "nachos-home": "^1.0.1",
+    "nachos-settings-file": "^1.0.1"
   }
 }
