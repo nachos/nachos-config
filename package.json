@@ -2,7 +2,7 @@
   "name": "nachos-config",
   "version": "1.0.0",
   "description": "nachos settings file for nachos",
-  "main": "lib\\index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "gulp lint",
     "test": "gulp test",
