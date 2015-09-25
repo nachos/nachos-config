@@ -51,6 +51,22 @@ var nachosConfig = require('nachos-config');
 
 See [settings-file](https://github.com/nachos/settings-file) documentation to see list of available functions
 
+## Extra functions
+Nachos config has extra functions on top of the SettingsFile functions
+
+### App defaults
+```js
+nachosConfig.getDefaultApp('txt')
+  .then(function (command) {
+    // command => /var/bin/gedit.desktop
+  });
+  
+nachosConfig.setDefaultApp('txt', '/var/bin/gedit.desktop')
+  .then(function () {
+    // saved successfully!
+  });
+```
+
 ## Run Tests
 ``` bash
 $ npm test
