@@ -34,5 +34,10 @@ describe('nachos-config', function () {
     it('should expose a nachosConfig ctor', function () {
       expect(nachosConfig.NachosConfig).to.be.a('function');
     });
+
+    it('should expose app defaults functions', function () {
+      expect(nachosConfig.getDefaultApp).to.be.a('function');
+      expect(nachosConfig.setDefaultApp).to.be.a('function');
+    });
   });
 });
