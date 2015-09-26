@@ -49,7 +49,7 @@ describe('nachos-config', function () {
       });
 
       describe('with invalid parameters', function () {
-        it('should reject as function', function () {
+        it('should reject app as function', function () {
           return expect(nachosConfig.getDefaultApp(function () {
           })).to.eventually.be.rejectedWith(TypeError, 'extension must be a string');
         });
