@@ -1,6 +1,6 @@
 {
   "name": "nachos-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "nachos settings file for nachos",
   "main": "lib/index.js",
   "scripts": {
